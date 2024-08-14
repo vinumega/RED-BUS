@@ -48,3 +48,4 @@ DATA SCRAPING:
 STREAMLIT:
    The above tool provides the webpafe dispaly  the data given accordingb the given conditions.
    In this project redbus the display includes the filtering of the states and the pricing rating  type of bus .The final result of the red bus project is done
+         
