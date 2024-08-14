@@ -6,8 +6,8 @@ import pymysql
 def create_connection():
     return pymysql.connect(host='localhost',
                            user='root',
-                           password='Ammulu@7',
-                           database='REDBUS')
+                           password='root',
+                           database='project2')
 
 # Function to fetch data from MySQL using a query
 def fetch_data(query):
