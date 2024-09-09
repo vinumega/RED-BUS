@@ -53,5 +53,5 @@ st.dataframe(df)
 
 conn.close()
 
-if __name__ == "__main__":
-    main()
+ df_result = type_and_fare_WB(select_type, select_fare)
+        slt.dataframe(df_result)
