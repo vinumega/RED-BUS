@@ -1,12 +1,15 @@
                  ** DATA SCRAPING WITH SELENIUM DYNAMIC FILTERING USING STREAMLIT AND SELENIUM**
 
 **INTRODUCTION:**
+
 The 'Redbus Data Scraping and Filtering with Streamlit Application' aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. By utilizing Selenium for web scraping, this project automates the extraction of detailed information from Redbus, including bus routes, schedules, prices, and seat availability. By streamlining data collection and providing powerful tools for data-driven decision-making, this project can significantly improve operational efficiency and strategic planning in the transportation industry.
 
 **DOMAIN:**
+
 TRANSPORTATION
 
 **SKILL:**
+
 Python scripting
 Selenium
 Data Collection
@@ -14,9 +17,13 @@ Data Management using SQL
 Streamlit
 
 **TECHNOLOGY USED**
-Python 3.9.I
+
+Python 3.9
+
 MySQL 8.0
+
 Streamlit
+
 Selenium
 
 **FEATURES OF APPLICATION**
@@ -30,10 +37,13 @@ Selenium
 4.This involves interacting with web elements like input 
 
 a)fields and buttons 
+
 b)waiting for the page to load
-c)extracting the desired details from the search results.
+
+c)extracting the desired detailsfrom the search results.
 
 **STORE DATA IN DATABASE:**
+
 The collected bus details data was transformed into pandas dataframes. Before that, a new database and tables were created using the MySQL connector. With the help of MySQL, the data was inserted into the respective tables. The database could be accessed and managed in the MySQL environment.
 
 **web app -**
@@ -60,12 +70,15 @@ With the help of Streamlit, you can create an interactive application similar to
 
 
 **DATA SCRAPING:**
-     At first step using the htmal tag of the respective state link the "x.path " is identified and given to the selenium code.The path link reads the respective route names and the links of the 10 states kerala,telanga,andhra,bangalore,harayana,delhi,rajastan,goa,assam,west bengal.
-     then from the elements on tghe link the coressponding Bus Id,Bus route,Bus name,PRICE,rating,Sleeper, AC sleeper,Rating.above execution of the code the list of state routes ands state names list his driven into the path given in the code.The final full list of staes routes price and bus types is yuploaded to the streamlit for the  describing the data inn the web page provided by us
+
+     At first step using the htmal tag of the respective state link the "x.path " is identified and given to the selenium code.
+    The path link reads the respective route names and the links of the 10 states kerala,telanga,andhra,bangalore,harayana,delhi,rajastan,goa,assam,west bengal.then from the elements on tghe link the coressponding Bus Id,Bus route,Bus name,PRICE,rating,Sleeper, AC sleeper,Rating.above execution of the code the list of state routes ands state names list his driven into the path given in the code.
+    The final full list of staes routes price and bus types is yuploaded to the streamlit for the  describing the data inn the web page provided by us
 
 
 **STREAMLIT:**
-   The above tool provides the webpafe dispaly  the data given accordingb the given conditions.
+
+   The above tool provides the webpage display of the data given according to the given conditions.
    
-   In this project redbus the display includes the filtering of the states and the pricing rating  type of bus .The final result of the red bus project is done
+   In this project redbus the display includes the filtering of the states and the pricing rating  type of bus .The final result of the red bus project is done by streamlit .
          
