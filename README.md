@@ -71,9 +71,11 @@ With the help of Streamlit, you can create an interactive application similar to
 
 **DATA SCRAPING:**
 
-     At first step using the htmal tag of the respective state link the "x.path " is identified and given to the selenium code.
-    The path link reads the respective route names and the links of the 10 states kerala,telanga,andhra,bangalore,harayana,delhi,rajastan,goa,assam,west bengal.then from the elements on tghe link the coressponding Bus Id,Bus route,Bus name,PRICE,rating,Sleeper, AC sleeper,Rating.above execution of the code the list of state routes ands state names list his driven into the path given in the code.
-    The final full list of staes routes price and bus types is yuploaded to the streamlit for the  describing the data inn the web page provided by us
+At first step using the htmal tag of the respective state link the "x.path " is identified and given to the selenium code.
+
+The path link reads the respective route names and the links of the 10 states kerala,telanga,andhra,bangalore,harayana,delhi,rajastan,goa,assam,west bengal.then from the elements on tghe link the coressponding Bus Id,Bus route,Bus name,PRICE,rating,Sleeper, AC sleeper,Rating.above execution of the code the list of state routes ands state names list his driven into the path given in the code.
+
+The final full list of staes routes price and bus types is uploaded to the streamlit for the  describing the data in the web page provided by us.
 
 
 **STREAMLIT:**
